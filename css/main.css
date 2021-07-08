@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@605&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Qahiri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap");
+body {
+  overflow-x: hidden;
+}
+
+body .homesection {
+  background: #111111 !important;
+  position: absolute;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center top;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+body .homesection img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.8;
+}
+
+body .homesection ul {
+  position: relative !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 10px;
+}
+
+body .homesection ul li {
+  padding: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: relative;
+  color: #ebdede;
+  cursor: pointer;
+}
+
+body .homesection ul li::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .homesection ul li:hover::after {
+  width: 100% !important;
+}
+
+body .homesection .disigner1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+body .homesection .disigner1 .designer2 {
+  background-color: rgba(82, 80, 80, 0.295);
+  width: 100%;
+  height: 100vh;
+  top: -100px !important;
+  position: relative;
+}
+
+body .homesection .disigner1 .designer2 .disigner {
+  position: relative;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  padding-top: 130px;
+}
+
+body .homesection .disigner1 .designer2 .disigner h1 {
+  cursor: pointer;
+  font-size: 25px;
+}
+
+body .homesection .disigner1 .designer2 .disigner p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+body .homesection .disigner1 .designer2 .disigner .btn {
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  background-color: #e20d0d !important;
+}
+
+body .custom {
+  margin-top: 750px !important;
+  padding: 0 100px 100px 100px !important;
+}
+
+body .custom .title {
+  font-size: 50px;
+}
+
+body .custom h1 {
+  font-family: 'Yellowtail', cursive;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+body .custom .col-lg-3 {
+  padding: 10px 10px 30px;
+}
+
+body .custom .col-lg-3 p {
+  font-weight: bold;
+}
+
+body .custom .col-lg-3 .fas {
+  padding: 20px;
+}
+
+body .lifeTime {
+  position: absolute;
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 400px;
+  left: 0;
+}
+
+body .lifeTime img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .lifeTime div {
+  background-color: rgba(82, 80, 80, 0.295);
+  width: 100%;
+  height: 400px;
+  position: relative;
+  top: 0 !important;
+  text-align: center;
+  top: 160px;
+  color: white;
+}
+
+body .lifeTime div div {
+  padding-top: 120px;
+}
+
+body .lifeTime div div h1 {
+  font-family: 'Yellowtail', cursive;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+body .lifeTime div div .btn {
+  border-radius: 10px;
+}
+
+body .works {
+  padding: 100px !important;
+}
+
+body .works .title4 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  color: #615d5d;
+}
+
+body .works p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body .works .services {
+  padding: 20px 25px !important;
+}
+
+body .works .services p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body .works .services .number {
+  color: #696363;
+  font-size: 45px;
+  font-family: 'Dancing Script', cursive;
+}
+
+body .works .services .title3 {
+  font-size: 30px;
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+body .barc1 {
+  background-color: rgba(82, 80, 80, 0.486);
+  width: 100%;
+  height: 400px;
+  position: relative;
+  top: 0 !important;
+}
+
+body .barc1 div {
+  padding-top: 120px;
+}
+
+body .kitt h1 {
+  font-family: 'Yellowtail', cursive;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+body .kitt .romann {
+  padding: 40px 0 !important;
+}
+
+body .kitt .romann .barc3 p {
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+body .kitt .romann .barc3 img {
+  border-radius: 15px;
+  height: auto;
+  width: 100%;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .kitt .romann .barc3 img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+}
+
+body .kitt div h1 {
+  font-size: 35px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+body .kitt div button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: 2px solid blueviolet;
+}
+
+body .photoSection {
+  padding: 0 0 50px;
+  background-color: #71ee52;
+  height: 500px;
+}
+
+body .photoSection h1 {
+  padding-top: 20px;
+  cursor: pointer;
+  font-family: 'Yellowtail', cursive;
+}
+
+body .photoSection .img1 div {
+  padding: 0;
+}
+
+body .photoSection .img1 div img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .photoSection a img {
+  width: 30px;
+  height: 30px;
+}
+
+body .photoSection .last2 a {
+  color: white !important;
+  padding: 20px !important;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+body .photoSection .last2 a::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .photoSection .last2 a:hover::after {
+  width: 100% !important;
+}
+
+body .barccc {
+  padding: 20px 0 20px;
+  background-color: black;
+  display: block !important;
+}
+
+body .barccc h1 {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body .barccc h1 a {
+  text-decoration: none;
+  position: relative;
+}
+
+body .barccc h1 a::after {
+  content: "";
+  position: absolute;
+  background-color: #00ff22;
+  height: 3px;
+  width: 0;
+  left: 0;
+  top: 18px;
+  bottom: -10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .barccc h1 a:hover::after {
+  width: 100% !important;
+}
+
+@media (max-width: 500px) {
+  body .designer h1 {
+    font-size: 20px !important;
+  }
+  body .designer p {
+    font-size: 5px !important;
+  }
+  body .photoSection {
+    background-color: #45ee45;
+    height: auto;
+  }
+  body .barccc {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
